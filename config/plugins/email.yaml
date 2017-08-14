@@ -1,0 +1,12 @@
+enabled: true
+from: contact@chez-papizz.fr
+from_name: 'Contact site web - Chez Papizz'
+to: contact@chez-papizz.fr
+mailer:
+  engine: smtp
+  smtp:
+    server: localhost
+    port: 25
+    encryption: none
+  content_type: text/html
+debug: true
